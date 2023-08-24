@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+
+    <!-- Skeleton for the Banner -->
+    <div class="banner">
+      <h1 class="banner-title"><image id="logo" src="Logo.svg" alt="infosum logo"/>| ROADMAP</h1>
+      <div id="shift">
+        <image id="arrows" src="multiple_stop.svg" alt="two opposite arrows" /><h1>SHIFT + SCROLL</h1>
+      </div>
+      <button id="initiative-btn" class="element-button" value="Initiatives">Initiatives</button>
+      <button id="epic-btn" class="element-button" value="Epics">Epics</button>
+    </div>
+    
+    <div class="months"></div>
+
+    <div id="overlay"></div>
+
+
+    <!------------ Skeleton for the Modals ------------>
+
+    <!-- Skeleton for the Banner of the modal -->
+    <div id="modal-container">
+      <div class="elements modal-element">
+        <a id="jira-link"  href="#" target="blank">
+          <button class="title"></button>
+        </a>
+        <div id="close">
+          <image src="Vector.svg" alt="close button" />
+        </div>
+        <h2>testing</h2>
+        <div class="progress-bar progress-bar-modal"></div>
+        <div class="progress-completed-bar progress-completed-bar-modal"></div>
+        <p>test?</p>
+      </div>
+
+      <h2 id="issue-key">test</h2>
+      <h3 id="hierarchy">test</h3>
+
+      <!-- Skeleton for the inforamtion section of the modal -->
+      <div class="information">
+        <div class="info-row">
+          <h4>Parent:</h4>
+          <h5 id="parent"></h5>
+        </div>
+        <div class="info-row">
+          <h4>Due Date:</h4>
+          <h5 id="due-date"></h5>
+        </div>
+        <div class="info-row">
+          <h4>Start Date:</h4>
+          <h5 id="start-date"></h5>
+        </div>
+        <div class="info-row">
+          <h4>Team</h4>
+          <h5 id="team"></h5>
+        </div>
+        <div class="info-row">
+          <h4>Status</h4>
+          <h5 id="status"></h5>
+        </div>
+      </div>
+
+      <!-- Skeleton for the additional details section of the modal -->
+      <h2 id="additional-details">Additional Details</h2>
+      <div class="details">
+        <div class="info-row">
+          <h4>Assignee:</h4>
+          <h5 id="assignee"></h5>
+        </div>
+        <div class="info-row">
+          <h4>Reporter</h4>
+          <h5 id="reporter"></h5>
+        </div>
+        <div class="info-row">
+          <h4>Labels</h4>
+          <h5 id="labels"></h5>
+        </div>
+      </div>
+    </div>
+
+    <div id="app"></div>
+
+    <script type="module" src="/src/main.ts"></script>
+
+  </body>
+</html>

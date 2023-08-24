@@ -1,0 +1,578 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  /* Font and Box Model */
+  font-family: 'Lato';
+  margin: 0px;
+  padding: 0px;
+  
+  /* Overflow Behavior */
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+
+:focus {
+  /* Remove outline from clickable elements when holding shift*/
+  outline: none;
+}
+
+
+/* ----- CSS Styling for the elements ----- */
+
+.elements {
+  /* Positioning */
+  position: absolute;
+  top: 160px;
+  
+  /* Dimensions */
+  width: 480px;
+  height: 64px;
+  
+  /* Border */
+  border: 0;
+  border-radius: 8px;
+}
+
+
+/* Styles for when elements are hovered over */
+
+#planned:hover {
+  /* Background color on hover */
+  background: var(--grey-100, #424548) !important;
+  
+  /* Change cursor to pointer on hover */
+  cursor: pointer;
+}
+
+#in-progress:hover {
+  background: var(--bright-blue-300, #4B77A0) !important;
+  cursor: pointer;
+}
+
+#done:hover {
+  background: var(--green-400, #008533) !important;
+  cursor: pointer;
+}
+
+.elements p {
+  /* Positioning */
+  position: absolute;
+  top: -15px;
+  left: 420px;
+  
+  /* Layout */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 2px 8px;
+  border-radius: 8px;
+  
+  /* Text Styling */
+  color: var(--white-900, #FFF);
+  background-color: rgba(0, 0, 0, 0.20);
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.title {
+  /* Positioning */
+  position: absolute;
+  top: 0;
+  margin-top: 8px;
+  margin-left: 8px;
+  
+  /* Text Styling */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  color: var(--white-900, #FFF);
+  font-family: 'Lato';
+}
+
+.elements h2 {
+  /* Positioning and Color */
+  position: absolute;
+  color: white;
+  top: 42px;
+  
+  /* Margins and Padding */
+  margin: 0px 10px 0px 8px;
+  padding-right: 10px;
+  
+  /* Text Styling */
+  font-size: 12px;
+  font-style: normal; 
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.progress-bar {
+  /* Positioning */
+  position: relative;
+  top: 2px;
+  left: 70px;
+  
+  /* Dimensions */
+  width: 100px;
+  height: 10px;
+  
+  /* Margin and Padding */
+  margin: 0;
+  
+  /* Background and Border */
+  background-color: rgba(135, 135, 135, 0.7);
+  border-radius: 5px;
+}
+
+.progress-completed-bar {
+  /* Positioning */
+  position: absolute;
+  top: 2px;
+  left: 70px;
+  
+  /* Dimensions */
+  width: 100px;
+  height: 10px;
+  
+  /* Margin and Padding */
+  margin: 0;
+  
+  /* Background and Border */
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+}
+
+
+/* ----- CSS Styling for the banner ----- */
+
+.banner {
+  /* Positioning and Layout */
+  top: 0px;
+  position: fixed;
+  height: 56px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  
+  /* Background */
+  background-color: rgb(18, 18, 79);
+  
+  /* Stack Order */
+  z-index: 1;
+}
+
+#logo {
+  /* Positioning */
+  position: relative;
+  right: 20px;
+  top: 8px;
+}
+
+.banner-title {
+  /* Positioning */
+  position: fixed;
+  top: -5px;
+  left: 2%;
+
+  /* Text Styling */
+  color: #FFF;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+
+#shift {
+  /* Positioning */
+  position: fixed;
+  left: 50%;
+  top: 8px;
+  transform: translate(-50%);
+
+  /* Box Styling */
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.20);
+  padding: 0 10px;
+}
+
+#shift h1 {
+  /* Layout */
+  display: inline-block;
+  margin-left: 8px;
+  
+  /* Text Styling */
+  color: var(--grey-600, #E1E9EF);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+#arrows {
+  /* Positioning */
+  position: relative;
+  top: 8px;
+}
+
+
+/* ----- CSS Styling for the buttons ----- */
+
+.element-button {
+  /* Positioning */
+  position: absolute;
+  
+  /* Dimensions and Border */
+  width: 93px;
+  height: 32px;
+  border: 4px;
+  
+  /* Background and Color */
+  background-color: var(--black-300, #424548);
+  color: var(--white-900, #FFF);
+  
+  /* Text Styling */
+  text-align: center;
+  font-family: Lato;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#epic-btn {
+  /* Positioning */
+  right: 16px;
+  
+  /* Dimensions and Border */
+  width: 62px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+#initiative-btn {
+  /* Positioning */
+  right: 78px;
+  
+  /* Border Radius */
+  border-radius: 4px 0px 0px 4px;
+}
+
+.element-button:hover {
+  /* Change cursor to pointer on hover */
+  cursor: pointer;
+}
+
+
+/* ----- CSS Styling for the month lines ----- */
+
+.version-month-line {
+  /* Positioning */
+  position: absolute;
+  top: 128px;
+  left: 1100px;
+  
+  /* Dimensions and Background */
+  height: 1332px;
+  width: 2px;
+  background: var(--grey-600, #E1E9EF);
+  
+  /* Flex and Margin */
+  flex-shrink: 0;
+  margin: auto;
+}
+
+.version-title {
+  /* Positioning */
+  top: 38px;
+  position: absolute;
+  left: 1000px;
+  margin: 30px auto;
+  
+  /* Dimensions */
+  width: 220px;
+  height: 100px;
+  
+  /* Text Alignment */
+  text-align: center;
+}
+
+.version-title h5 {
+  /* Margin and Padding */
+  padding: 0;
+  margin: 3px auto;
+
+  /* Text Styling */
+  text-align: center;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.version-title h6 {
+  /* Margin and Padding */
+  padding: 0;
+  margin: 3px;
+
+  /* Text Styling */
+  color: var(--grey-400, #B1B7BE);
+  text-align: center;
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+
+/* ----- CSS Styling for the modals ----- */
+
+/* Dims the background when a modal is clicked */
+#overlay {
+  /* Positioning */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  
+  /* Stack Order */
+  z-index: 1;
+  
+  /* Background */
+  background-color: rgba(0, 0, 0, 0.5);
+  
+  /* Display */
+  display: none;
+}
+
+#modal-container {
+  /* Display */
+  display: none;
+  
+  /* Background and Positioning */
+  background: white;
+  top: 50%;
+  left: 50%;
+  
+  /* Dimensions and Border */
+  width: 480px;
+  height: 412px;
+  border: 9px;
+  border-radius: 4px 4px 0px 0px;
+  
+  /* Transform and Stack Order */
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  
+  /* Box Shadow */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+#close {
+  /* Positioning */
+  position: relative;
+  float: right;
+  right: 9px;
+  top: 9px;
+
+  /* Dimensions and Padding */
+  width: 22px;
+  height: 19px;
+  padding: 0;
+  padding-top: 1px;
+  
+  /* Background */
+  background: rgba(255, 255, 255, 0.0);
+  
+  /* Text Alignment and Styling */
+  text-align: center;
+  font-weight: bold;
+}
+
+#close:hover {
+  cursor: pointer;
+}
+
+
+/*First section for the banner which is a copy of the element*/
+
+.modal-element {
+  /* Border Radius and Positioning */
+  border-radius: 4px 4px 0px 0px;
+  top: -1px;
+}
+
+.modal-element p {
+  top: 27px;
+}
+
+.modal-element:hover {
+  border: 0;
+}
+
+.progress-bar-modal {
+  top: 45px;
+}
+
+.progress-completed-bar-modal {
+  top: 45px;
+}
+
+.percent-text {
+  /* Positioning and Color */
+  position: absolute;
+  color: #FCFCFD;
+  top: 42px;
+  
+  /* Margins and Padding */
+  margin: 0px 10px 0px 8px;
+  padding-right: 10px;
+  
+  /* Text Styling */
+  font-size: 12px;
+  font-style: normal; /* This should likely be 'font-weight' */
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+
+/*Second section for the top half of information for the modal*/
+
+#issue-key {
+  /* Positioning */
+  position: fixed;
+  top: 66px;
+  left: 16px;
+  
+  /* Text Styling */
+  color: var(--bright-blue-500, #6CACE4);
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+#hierarchy {
+  /* Positioning */
+  position: fixed;
+  top: 66px;
+  right: 16px;
+
+  /* Text Styling */
+  color: var(--grey-400, #B1B7BE);
+  text-align: right;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.information {
+  top: 40px;
+}
+
+.modal-element h2 {
+  /* Positioning */
+  left: 5px;
+
+  /* Margins and Padding */
+  margin-right: 10px;
+  padding-right: 20px;
+}
+
+.info-row {
+  /* Layout and Positioning */
+  float: left;
+  top: 112px;
+  left: 16px;
+  position: relative;
+  
+  /* Dimensions and Background */
+  width: 448px;
+  height: 30px;
+  background-color: #FFFFFF;
+  
+  /* Border */
+  border: #E8EEF3 solid 1px;
+}
+
+.info-row h4 {
+  /* Positioning */
+  position: relative;
+  top: -7px;
+  left: 5px;
+
+  /* Text Styling */
+  color: var(--grey-300, #85898E);
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.info-row h5 {
+  /* Positioning */
+  position: relative;
+  text-align: right;
+  top: -41px;
+  right: 8px;
+
+  /* Text Styling */
+  color: var(--grey-300, #85898E);
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+
+  /* Stack Order */
+  z-index: 1;
+}
+
+#additional-details {
+  /* Positioning */
+  position: fixed;
+  top: 275px;
+  left: 16px;
+
+  /* Text Styling */
+  color: var(--grey-200, #6F7376);
+  font-family: Lato;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.details {
+  /* Positioning */
+  position: relative;
+  top: 35px;
+}
+
+.modal-element button {
+  /* Background and Border */
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.modal-element button:hover {
+  /* Cursor on hover and Color */
+  cursor: pointer;
+  color: lightgrey;
+}

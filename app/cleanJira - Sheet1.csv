@@ -1,0 +1,165 @@
+Hierarchy,Title,Project,Releases,Team,Assignee,Reporter,Sprint,Target start date,Target end date,Due date,Estimates (d),Parent,Priority,Labels,Components,Issue key,Issue status,Progress (%),Progress completed (d),Progress remaining (d),Progress (%) issue count (IC),To do IC,In progress IC,Done IC,Total IC,Start date (roll-up),Start date
+Initiative,Facebook export integration as a destination,Product Management Backlog,,,,Matthew Purnell,,,,,,,Unassigned,,,PMB-714,Open,0,0,0,25,3,0,1,4,,10/Jan/23
+Epic,OAuth 2.0 Destination Foundations,Product Management Backlog,,,James Davy,Jason Tye,,,,,,Facebook export integration as a destination,Unassigned,psyduck-epic,,PMB-722,On Hold,0,0,0,57.14,3,0,4,7,,01/Feb/23
+Epic,Interactive Facebook Destination,Product Management Backlog,,,,Matthew Purnell,,,,,,Facebook export integration as a destination,Unassigned,,,PMB-715,Open,0,0,0,0,7,0,0,7,,
+Epic,Facebook Destination with OAuth Authentication,Product Management Backlog,,,,Jason Tye,,,,,,Facebook export integration as a destination,Unassigned,,,PMB-720,Open,0,0,0,0,0,0,0,0,,
+Initiative,Facilitate hands-off troubleshooting and issue diagnosis in Sigma bunkers by engineering teams,Product Management Backlog,,,,Jason Tye,,,,,,,Unassigned,,,PMB-635,On Hold,0,0,0,33.33,3,1,2,6,,03/Nov/22
+Epic,Create initial set of Dashboards and alerting for Ephemeral compute Specific Services in K8s Exclaves.,Unicorn,,Sonic [EXT],,Leslie Mear,,,,,,Facilitate hands-off troubleshooting and issue diagnosis in Sigma bunkers by engineering teams,Unassigned,,,UNC-404,Open,0,0,0,100,0,0,1,1,,
+Epic,Create initial set of Dashboards and alerting for Ephemeral compute Specific Services for ECI Instances.,Unicorn,,Sonic [EXT],,Leslie Mear,,,,,,Facilitate hands-off troubleshooting and issue diagnosis in Sigma bunkers by engineering teams,Unassigned,,,UNC-405,Open,0,0,0,100,0,0,1,1,,
+Epic,Ingest non-security related system logs from compute instances into Graylog,Sonic,,Sonic [EXT],,,,,,,,Facilitate hands-off troubleshooting and issue diagnosis in Sigma bunkers by engineering teams,Unassigned,,,SON-777,Open,0,0,0,100,0,0,1,1,,
+Spike,Investigate/doc approach to categorising system logs,Sonic,,Sonic [EXT],,,,,,,,Ingest non-security related system logs from compute instances into Graylog,Unassigned,,,SON-768,Done,0,0,0,0,0,0,0,0,,
+Epic,"Create alerting for Enclave, Exclave and Ephemeral compute Specific Services in K8s.",Unicorn,,Sonic [EXT],Joseph Elledge,Andrew Murphy,,,,,,Facilitate hands-off troubleshooting and issue diagnosis in Sigma bunkers by engineering teams,Medium,tech-debt,,UNC-538,In Development,0,0,0,42.86,4,0,3,7,,18/May/23
+Spike,Consider how the infrastructure could be monitored,Sonic,,Sonic [EXT],,Ross Bishop,Sprint 37: Nintendo Switch [EXT] [COMPLETED] + Sprint 36: Xbox One [EXT] [COMPLETED],,,22/Jun/23,,"Create alerting for Enclave, Exclave and Ephemeral compute Specific Services in K8s.",Unassigned,,,SON-1128,Ready for Dev,0,0,0,0,0,0,0,0,,16/Jun/23
+Initiative,Prototype Backstage instance,Product Management Backlog,,,Ben Atkinson,Ben Atkinson,,,,,,,Unassigned,sonic-epic,,PMB-724,Open,0,0,0,0,0,0,0,0,,
+Initiative,Managing Sigma Datasets in the platform,Product Management Backlog,2.0.0 Sigma Batch 1,,Richard Heap,Matthew Purnell,,,,21/Jul/23,,,Unassigned,"thunderhead-epic, atlas-epic",,PMB-698,In Progress,0,0,0,0,0,1,0,1,,31/Jan/23
+Epic,Managing Sigma Datasets,Atlas,2.0.0 Sigma Batch 1,,James Triggs,Richard Heap,,,,27/Jul/23,,Managing Sigma Datasets in the platform,Unassigned,2.0_Sigma_Batch_1,,ATL-1765,In Development,0,0,0,80,0,1,4,5,,20/Jun/23
+Initiative,Creating Normalisation Config outside a legacy bunker,Product Management Backlog,2.0.0 Sigma Batch 1,,Richard Heap,Dominic Benton,,,,29/Jun/23,,,Unassigned,"bowser-epic, atlas-epic",,PMB-730,In Progress,0,0,0,0,0,1,0,1,,15/Feb/23
+Epic,Create normalisation configs,Atlas,,Atlas [EXT],Richard Heap,Richard Heap,,,,27/Jul/23,,Creating Normalisation Config outside a legacy bunker,Unassigned,atlas-epic,,ATL-1561,In Development,0,0,0,92.31,0,2,24,26,,16/Mar/23
+Initiative,Import .csv from Local Machine to Cloud Vault,Product Management Backlog,"2.1.0 Sigma Batch 2,4,5,6,7",,Joseph Elledge,Matthew Purnell,,,,22/Jun/23,,,Unassigned,"sonic-epic, bowser-epic, atlas-epic",,PMB-718,In Progress,0,0,0,0,0,2,0,2,,10/May/23
+Epic,Import .csv from Local Machine to Cloud Vault,Unicorn,,Bowser [EXT],Joseph Elledge,Tharini Roobakumar,,,,31/Aug/23,,Import .csv from Local Machine to Cloud Vault,Unassigned,"sonic-epic, bowser-epic",,UNC-392,In Development,0,0,0,76.47,5,3,26,34,,26/Apr/23
+Spike,Verify that IAM session name can be defined for a presigned URL,Sonic,,,,Andrew Murphy,Sprint 34: Wii U [EXT] [COMPLETED],,,03/May/23,,Import .csv from Local Machine to Cloud Vault,Unassigned,2.1_Sigma_Batch_2,,SON-1340,Done,0,0,0,0,0,0,0,0,,02/May/23
+Epic,Allow import of a .csv from a local machine,Atlas,,Atlas [EXT],Richard Heap,Richard Heap,,,,31/Aug/23,,Import .csv from Local Machine to Cloud Vault,Unassigned,,,ATL-1570,In Development,0,0,0,0,9,1,0,10,,17/Jul/23
+Initiative,Recordset Config,Product Management Backlog,,,Richard Heap,Tharini Roobakumar,,,,,,,Unassigned,,,PMB-842,In Progress,0,0,0,0,1,1,0,2,,
+Epic,CRUD Recordset Configs,Product Management Backlog,2.2.0,,Joseph Elledge,Joseph Elledge,,,,31/Aug/23,,Recordset Config,Unassigned,,,PMB-855,In Development,0,0,0,50,5,1,6,12,,21/Jun/23
+Epic,Recordset Config Creation Flow,Product Management Backlog,,,,Oliver Denton,,,,,,Recordset Config,Unassigned,,,PMB-874,Open,0,0,0,0,5,0,0,5,,
+Initiative,Schedule non-transformations end-to-end flow,Product Management Backlog,2.2.0,,Joseph Elledge,Matthew Purnell,,,,,,,Unassigned,,,PMB-636,In Progress,0,0,0,0,0,1,0,1,,
+Epic,Automate & Schedule import flow,Product Management Backlog,,,James Triggs,Joseph Elledge,,,,31/Aug/23,,Schedule non-transformations end-to-end flow,Unassigned,,,PMB-858,In Development,0,0,0,5.88,13,3,1,17,,22/Jun/23
+Spike,Identify how lineage data will be captured and stored,Unicorn,,,Warren Brown,Joseph Elledge,,,,,,Automate & Schedule import flow,Unassigned,,,UNC-470,Done,0,0,0,0,0,0,0,0,,
+Initiative,Incremental import,Product Management Backlog,,,,,,,,,,,Unassigned,,,PMB-617,Open,0,0,0,0,1,0,0,1,,
+Epic,Incremental publish,Product Management Backlog,,,Alistair Bastian,,,,,,,Incremental import,Medium,,,PMB-92,Open,0,0,0,0,0,0,0,0,,
+Initiative,Max number of compute instances per customer,Product Management Backlog,,,,,,,,,,,Unassigned,,,PMB-811,Open,0,0,0,0,1,0,0,1,,
+Epic,Implement Cost Controls,Product Management Backlog,,,Ashkan Kalantari,,,,,,,Max number of compute instances per customer,Unassigned,,,PMB-688,Open,0,0,0,0,0,0,0,0,,
+Initiative,Import from SFTP to Cloud Vault,Product Management Backlog,1.1n.00 Sigma Batch 3,,Joseph Elledge,Tharini Roobakumar,,,,18/Jul/23,,,Unassigned,"bowser-epic, atlas-epic",,PMB-767,Ready to Start,0,0,0,0,1,0,0,1,,24/May/23
+Epic,Import from SFTP to Cloud Vault,Product Management Backlog,,,,Joseph Elledge,,,,,,Import from SFTP to Cloud Vault,Unassigned,,,PMB-880,In Discovery,0,0,0,0,0,0,0,0,,
+Initiative,Importing GPG encrypted files across all import connectors,Product Management Backlog,,,Joseph Elledge,Matthew Purnell,,,,,,,Unassigned,,,PMB-804,Open,0,0,0,0,0,0,0,0,,
+Initiative,Private Path Exports,Product Management Backlog,"2.1.0 Sigma Batch 2,4,5,6,7, 1.18.00",,Richard Heap,Joseph Elledge,,,,07/Jun/23,,,Unassigned,,,PMB-813,Open,0,0,0,100,0,0,2,2,,11/May/23
+Epic,Private Path - Prototype to Preview,Product Management Backlog,1.18.00,,Richard Heap,,,,,22/Jun/23,,Private Path Exports,Unassigned,,,PMB-840,Done,0,0,0,100,0,0,5,5,,11/May/23
+Epic,Private Path: Allow a Dataset to be used more than once in a collaboration,Unicorn,2.0.0 Batch 1,,Alistair Bastian,Alistair Bastian,,,,04/Jul/23,,Private Path Exports,High,ExperianUS,,UNC-514,Done,0,0,0,100,0,0,3,3,,03/Jul/23
+Initiative,Google Customer Match destinations,Product Management Backlog,"2.1.0 Sigma Batch 2,4,5,6,7",,Joseph Elledge,Matthew Purnell,,,,,,,Unassigned,,,PMB-723,In Progress,0,0,0,25,2,1,1,4,,
+Epic,Google Customer Match (DV360) Destination,Product Management Backlog,"2.1.0 Sigma Batch 2,4,5,6,7",,,Punit Naran,,,,21/Jun/23,,Google Customer Match destinations,Unassigned,"psyduck-epic, atlas-epic",,PMB-838,Done,0,0,0,100,0,0,8,8,,11/May/23
+Epic,Google DV360 Customer Match New Audience Activation Push,Product Management Backlog,"2.1.0 Sigma Batch 2,4,5,6,7",,,Richard Heap,,,,27/Jul/23,,Google Customer Match destinations,Unassigned,"psyduck-epic, atlas-epic",,PMB-728,In Development,0,0,0,77.78,1,1,7,9,,11/May/23
+Epic,Google Customer Match (GoogleAds) Destination,Product Management Backlog,,,,Punit Naran,,,,21/Jun/23,,Google Customer Match destinations,Unassigned,,,PMB-863,In Discovery,0,0,0,0,0,0,0,0,,11/May/23
+Epic,GoogleAds Customer Match New Audience Activation Push,Product Management Backlog,"2.1.0 Sigma Batch 2,4,5,6,7",,,Richard Heap,,,,,,Google Customer Match destinations,Unassigned,,,PMB-864,In Discovery,0,0,0,0,0,0,0,0,,11/May/23
+Initiative,"DORA Metrics: The ability to surface the 4 Primary DORA Metrics in an automated, accurate way.",Product Management Backlog,,,Cameron McAllister,,,,,,,,Unassigned,,,PMB-732,Open,0,0,0,0,4,0,0,4,,
+Epic,The average time taken between a developer committing code and that code being deployed to Production.,Product Management Backlog,,,Cameron McAllister,,,,,,,"DORA Metrics: The ability to surface the 4 Primary DORA Metrics in an automated, accurate way.",Unassigned,,,PMB-735,Open,0,0,0,0,0,0,0,0,,
+Epic,We need to track the number of deployments as part of our DORA metrics.,Product Management Backlog,,,Cameron McAllister,,,,,,,"DORA Metrics: The ability to surface the 4 Primary DORA Metrics in an automated, accurate way.",Unassigned,,,PMB-736,Open,0,0,0,0,0,0,0,0,,
+Epic,How long does it take us to recover when things go wrong in Production - we need a way of accurately measuring this.,Product Management Backlog,,,,,,,,,,"DORA Metrics: The ability to surface the 4 Primary DORA Metrics in an automated, accurate way.",Unassigned,,,PMB-738,Open,0,0,0,0,0,0,0,0,,
+Epic,"We need to be able to measure the percentage of changes that resulted in degraded services, regression and outages for",Product Management Backlog,,,,,,,,,,"DORA Metrics: The ability to surface the 4 Primary DORA Metrics in an automated, accurate way.",Unassigned,,,PMB-746,Open,0,0,0,0,0,0,0,0,,
+Initiative,IQL analysis enhancements,Product Management Backlog,,,Matthew Purnell,Matthew Purnell,,,,,,,Unassigned,,,PMB-530,Open,0,0,0,0,8,0,0,8,,
+Epic,"Add support for time-based queries. Time data type to be queryable (filter, aggregate, union...)",Product Management Backlog,,,,Matthew Purnell,,,,,,IQL analysis enhancements,Unassigned,,,PMB-535,Open,0,0,0,0,0,0,0,0,,
+Epic,Add attribution function to IQL,Product Management Backlog,,,,Dominic Benton,,,,,,IQL analysis enhancements,Unassigned,"Annalect, sony, Disney",,PMB-489,Open,0,0,0,0,0,0,0,0,,
+Epic,Support case insensitive category filters,Product Management Backlog,,,,Matthew Purnell,,,,,,IQL analysis enhancements,Unassigned,INTAKE,,PMB-566,Open,0,0,0,0,0,0,0,0,,
+Epic,Aggregate Function Enhancements - Increase the number of attributes that can be specified in an aggregate query,Product Management Backlog,,,,Matthew Purnell,,,,,,IQL analysis enhancements,Unassigned,,,PMB-534,Open,0,0,0,0,0,0,0,0,,
+Epic,Aggregate Function Enhancements - Display the dataset that is performing the aggregation to the user,Product Management Backlog,,,,Matthew Purnell,,,,,,IQL analysis enhancements,Unassigned,,,PMB-537,Open,0,0,0,0,0,0,0,0,,
+Epic,Add the SQL operator LIKE under a where clause in IQL,Product Management Backlog,,,,Matthew Purnell,,,,,,IQL analysis enhancements,Unassigned,,,PMB-538,Open,0,0,0,0,0,0,0,0,,
+Epic,Aggregate Function Enhancements - Include the count of null values within an aggregate query,Product Management Backlog,,,,Matthew Purnell,,,,,,IQL analysis enhancements,Unassigned,INTAKE,,PMB-539,Open,0,0,0,0,0,0,0,0,,
+Epic,Aggregate Function Enhancements - Revise counting methodology for aggregating/unioning 3+ datasets,Product Management Backlog,,,,Matthew Purnell,,,,,,IQL analysis enhancements,Unassigned,,,PMB-540,Open,0,0,0,0,0,0,0,0,,
+Initiative,Sigma Enhancements,Product Management Backlog,,,,Dominic Benton,,,,,,,Unassigned,,,PMB-856,In Progress,0,0,0,0,1,2,0,3,,
+Epic,Batch 1 bugs ,Atlas,,,James Triggs,Richard Heap,,,,27/Jul/23,,Sigma Enhancements,Unassigned,,,ATL-1927,In Development,0,0,0,62.5,4,2,10,16,,27/Jun/23
+Epic,Batch 1 tidy up,Product Management Backlog,"2.1.0 Sigma Batch 2,4,5,6,7, 2.2.0",,James Triggs,Richard Heap,,,,31/Aug/23,,Sigma Enhancements,Unassigned,,,PMB-852,In Development,0,0,0,55.56,3,5,10,18,,13/Jul/23
+Spike,Normalised file has 0 categories even though they were included,Atlas,,,,Richard Heap,,,,,,Batch 1 tidy up,Unassigned,,,ATL-1990,Done,0,0,0,0,0,0,0,0,,
+Epic,Batch 1 UX,Atlas,,,,Richard Heap,,,,21/Jul/23,,Sigma Enhancements,Unassigned,,,ATL-1937,Open,0,0,0,5,19,0,1,20,,01/Jun/23
+Initiative,Support SUM/AVG as query functions,Product Management Backlog,,,Joseph Elledge,Matthew Purnell,,,,,,,Unassigned,,,PMB-848,Open,0,0,0,100,0,0,1,1,,
+Epic,Prototype basic Sum functionality to unblock demo to Disney ,Product Management Backlog,,,Alistair Bastian,Alistair Bastian,,,,27/Jun/23,,Support SUM/AVG as query functions,High,Disney,,PMB-849,Done,0,0,0,0,0,0,0,0,,05/Jun/23
+Initiative,Error messaging,Product Management Backlog,,,,,,,,,,,Medium,INTAKE,,PMB-133,Open,0,0,0,0,0,0,0,0,,
+Initiative,Update v1 dataset/allowance apis to improve performance,Product Management Backlog,,,,,,,,,,,Unassigned,,,PMB-525,Open,0,0,0,0,0,0,0,0,,
+Initiative,Basic analytic stats for Recordsets,Product Management Backlog,,,,,,,,,,,Unassigned,,,PMB-637,Open,0,0,0,0,0,0,0,0,,
+Initiative,Notifications Framework,Product Management Backlog,,,,,,,,,,,Unassigned,,,PMB-634,Open,0,0,0,0,0,0,0,0,,
+Initiative,API Gateway,Product Management Backlog,,,,Stephen Rowles,,,,,,,Unassigned,,,PMB-667,Open,0,0,0,0,0,0,0,0,,
+Initiative,ID bridge enhancements,Product Management Backlog,,,,Matthew Purnell,,,,,,,Unassigned,,,PMB-851,In Planning,0,0,0,0,0,0,0,0,,
+Initiative,Insights Report,Product Management Backlog,,,,Dominic Benton,,,,,,,Unassigned,,,PMB-857,In Planning,0,0,0,0,0,0,0,0,,
+Initiative,Users need flexibility in choosing which key is used for matching and which is used for counting,Product Management Backlog,,,,Matthew Purnell,,,,,,,Unassigned,INTAKE,,PMB-533,In Planning,0,0,0,0,0,0,0,0,,
+Initiative,Replace push connectors with reusable Destinations,Product Management Backlog,,,Matthew Purnell,,,,,,,,Medium,,,PMB-117,In Planning,0,0,0,57.14,3,0,4,7,,
+Epic,Port existing push connector templates to destinations,Psyduck,,Psyduck [EXT],,Jason Tye,,,,,,Replace push connectors with reusable Destinations,Medium,INTAKE,,PSYD-15,Open,0,0,0,68.42,6,0,13,19,,
+Epic,Display principal and external ID to users of S3 cross account and cross account PAIR,Product Management Backlog,,,James Triggs,Joseph Elledge,,,,07/Jul/23,,Replace push connectors with reusable Destinations,Unassigned,,,PMB-850,Done,0,0,0,100,0,0,4,4,,19/Jun/23
+Epic,Delete Push Connector Templates,Product Management Backlog,,,,,,,,05/Jul/23,,Replace push connectors with reusable Destinations,Unassigned,,,PMB-145,Done,0,0,0,100,0,0,2,2,,03/Nov/20
+Epic,Activating with Permission-Granted Destinations,Psyduck,,Psyduck [EXT],,Jason Tye,,,,16/Aug/22,,Replace push connectors with reusable Destinations,Medium,,,PSYD-21,Open,0,0,0,0,3,0,0,3,,17/Jul/22
+Epic,Destination Configuration,Product Management Backlog,,,,,,,,05/Jul/23,,Replace push connectors with reusable Destinations,Medium,,,PMB-137,Done,0,0,0,100,0,0,6,6,,
+Epic,Add Regex Functionality to Destinations filenames,Product Management Backlog,,,,Matthew Purnell,,,,,,Replace push connectors with reusable Destinations,Unassigned,,,PMB-578,Open,0,0,0,0,0,0,0,0,,
+Initiative,Transforming our Transformations capability,Product Management Backlog,,,Alistair Bastian,Dominic Benton,,,,,,,Unassigned,,,PMB-729,In Planning,0,0,0,100,0,0,1,1,,
+Epic,AWS Glue Research,GLaDOS,,,Rhys Gardener,Alistair Bastian,,,,18/May/23,,Transforming our Transformations capability,Unassigned,,,GLA-107,Done,0,0,0,100,0,0,7,7,,
+Spike,Investigate whether functionality currently performed by Normaliser can be recreated using AWS Glue,GLaDOS,,,Rhys Gardener,Alistair Bastian,,,,25/Apr/23,,AWS Glue Research,Unassigned,,,GLA-134,Done,0,0,0,0,0,0,0,0,,06/Mar/23
+Initiative,[RISK-322] Legacy Services will fail after June 30th 2023 Due to Security Sunsets,Product Management Backlog,,,Gareth Llewellyn,Tharini Roobakumar,,,,30/Jun/23,,,Unassigned,Risk-Mitigation,,PMB-796,Open,0,0,0,0,0,0,0,0,,
+Initiative,User Observatory (Customer Activity Observability),Product Management Backlog,,,Matthew Purnell,Cameron McAllister,,,,,,,Unassigned,,,PMB-799,In Progress,0,0,0,100,0,0,1,1,,16/Mar/23
+Epic,Observatory Epic 0 - ElasticStack investigation,Product Management Backlog,,,Cameron McAllister,Cameron McAllister,,,,09/Jun/23,,User Observatory (Customer Activity Observability),Unassigned,,,PMB-809,Done,0,0,0,0,0,0,0,0,,
+Initiative,PubMatic Destination,Product Management Backlog,,,,Matthew Purnell,,,,,,,Unassigned,,,PMB-512,Open,0,0,0,33.33,2,0,1,3,,
+Epic,"Users will want to be able to refresh audiences, this means being able to add some identifiers to a segment, but also to remove certain IDs from a segment.",Product Management Backlog,,,,Matthew Purnell,,,,,,PubMatic Destination,Unassigned,,,PMB-514,Open,0,0,0,0,0,0,0,0,,
+Epic,"Enhance PubMatic destination to enable users to create a segment via API, before exporting the list of users from InfoSum ",Product Management Backlog,,,,Matthew Purnell,,,,,,PubMatic Destination,Unassigned,,,PMB-513,Open,0,0,0,0,0,0,0,0,,
+Initiative,Improved user rights management,Product Management Backlog,,,,Tharini Roobakumar,,,,,,,Medium,INTAKE,,PMB-550,Open,0,0,0,100,0,0,1,1,,
+Epic,GraphQL usage for users and companies,Product Management Backlog,,,,,,,,08/Jun/23,,Improved user rights management,Medium,"Q2, atlas-epic",,PMB-76,Done,0,0,0,100,0,0,5,5,,
+Spike,Define how users/companies endpoint should behave in Dijkstra,Atlas,,Atlas [EXT],,,,,,,,GraphQL usage for users and companies,Unassigned,,,ATL-1110,Done,0,0,0,0,0,0,0,0,,
+Spike,Hoist' Cloud Vaults graphQL endpoint hosting into Dijkstra ,Atlas,,Atlas [EXT],Wayne Austin,Oliver Denton,Sprint 32 <BasketCase /> [EXT] [COMPLETED] + Sprint 33 <Inversion /> [EXT] [COMPLETED],,,25/Apr/23,,GraphQL usage for users and companies,Unassigned,tech-debt,,ATL-1641,Done,0,0,0,100,0,0,3,3,,12/Apr/23
+Initiative,UX Enhancements,Product Management Backlog,,,Dominic Benton,Luke Dowding,,,,,,,Unassigned,UX,,PMB-845,In Progress,0,0,0,12.5,6,1,1,8,,01/Apr/23
+Epic,Improve import user journey,Atlas,2.1,Atlas [EXT],James Triggs,Richard Heap,,,,27/Jul/23,,UX Enhancements,Unassigned,UX,,ATL-1571,In Development,0,0,0,80,1,1,8,10,,08/Jun/23
+Epic,Attribute type is not clear when writing IQL so users are unsure of the correct syntax,Product Management Backlog,,,,Matthew Purnell,,,,,,UX Enhancements,Unassigned,atlas-epic,,PMB-532,Open,0,0,0,100,0,0,1,1,,
+Epic,Display match key in IQL + segment & audience builders,Product Management Backlog,,,,Matthew Purnell,,,,,,UX Enhancements,Unassigned,"Disney, INTAKE, CustOps, atlas-epic",,PMB-511,Open,0,0,0,0,2,0,0,2,,
+Epic,"Auto mapping day, month and year columns to date of birth",Product Management Backlog,,,,Matthew Purnell,,,,08/Jun/23,,UX Enhancements,Unassigned,,,PMB-573,Done,0,0,0,0,0,0,0,0,,
+Epic,Labels in segment builder filters as to indicate which dataset the filter is being applied from,Product Management Backlog,,,,Matthew Purnell,,,,,,UX Enhancements,Unassigned,,,PMB-611,Open,0,0,0,0,0,0,0,0,,
+Epic,Show insight query history to user,Product Management Backlog,,,Dominic Benton,Dominic Benton,,,,,,UX Enhancements,Unassigned,,,PMB-613,Open,0,0,0,0,0,0,0,0,,
+Epic,Automating segment refreshes,Product Management Backlog,,,,Matthew Purnell,,,,,,UX Enhancements,Unassigned,,,PMB-815,Open,0,0,0,0,0,0,0,0,,
+Epic,Design,Atlas,,Atlas [EXT],,,,,,,,UX Enhancements,Medium,,,ATL-365,Open,0,0,0,90,3,0,27,30,,
+Initiative,Raw data preview for recordset creation,Product Management Backlog,,,,Dominic Benton,,,,,,,Unassigned,,,PMB-846,Open,0,0,0,0,1,0,0,1,,
+Epic,Raw Data Preview in region,Product Management Backlog,,,Ashkan Kalantari,,,,,,,Raw data preview for recordset creation,Unassigned,,,PMB-547,Open,0,0,0,20,4,0,1,5,,
+Initiative,Supporting float data type,Product Management Backlog,,,,Matthew Purnell,,,,,,,Unassigned,,,PMB-847,Open,0,0,0,0,0,0,0,0,,
+Epic,Remediate critical AWS WAR findings,Sonic,,,,Cameron McAllister,,,,31/Aug/23,,,High,,,SON-1415,In Development,0,0,0,37.5,1,4,3,8,,05/Jul/23
+Spike,[WAR] 3 - Perform vulnerability management - investigation,Sonic,,,Ross Bishop,Cameron McAllister,,,,,,Remediate critical AWS WAR findings,Unassigned,,,SON-1449,In Progress,0,0,0,0,0,0,0,0,,05/Jul/23
+Spike,[WAR] 4 - Validate software integrity,Sonic,,,,Cameron McAllister,,,,,,Remediate critical AWS WAR findings,Unassigned,,,SON-1450,Not Ready,0,0,0,0,0,0,0,0,,
+Spike,Create procedure for patching and monitoring a windows instance,Sonic,,,Leslie Mear,Andrew Murphy,RISKs [EXT],,,,,Remediate critical AWS WAR findings,Unassigned,,,SON-1388,Blocked,0,0,0,0,0,0,0,0,,19/Jul/23
+Epic,Update and tidy Sonic-owned Golang repositories + Dockerfiles ,Unicorn,,Sonic [EXT],,Ben Atkinson,,,,,,,Unassigned,"triaged, Dev",,UNC-254,Open,0,0,0,0,0,0,0,0,,
+Epic,Use IaC to manage non-London exclaves to simplify and standardise management and upgrades.,Sonic,,Sonic [EXT],Cameron McAllister,Andrew Murphy,,,,23/May/23,,,Unassigned,,,SON-515,Done,0,0,0,100,0,0,31,31,,27/Oct/22
+Epic,[RISK-40] Mitigate Outbound Access to be restricted for Kubernetes Instances,Sonic,,Sonic [EXT],,Leslie Mear,,,,,,,Unassigned,,,SON-1240,Open,0,0,0,0,0,0,0,0,,
+Epic,[RISK-40] Mitigate Outbound Access to be restricted for OPI Instances,Sonic,,Sonic [EXT],,Leslie Mear,,,,,,,Unassigned,,,SON-1211,Ready for Development,0,0,0,0,5,0,0,5,,
+Epic,[RISK-40] Mitigate Outbound Access to be restricted for RDS Instances,Sonic,,Sonic [EXT],,Leslie Mear,,,,,,,Unassigned,,,SON-1241,Open,0,0,0,100,0,0,3,3,,
+Epic,Upgrade Kubernetes to 1.24,Sonic,,Sonic [EXT],,Tharini Roobakumar,,,,29/Sep/23,,,Unassigned,,,SON-1280,Ready for Development,0,0,0,0,10,0,0,10,,15/May/23
+Spike,Review Node resources used by services in all regions and environments.,Sonic,,,,Leslie Mear,,,,,,Upgrade Kubernetes to 1.24,Unassigned,,,SON-1281,Ready,0,0,0,0,0,0,0,0,,
+Epic,[RISK-87] Rotate Credentials,Sonic,,Sonic [EXT],Andrew Murphy,Gareth Llewellyn,,,,,,,Medium,"Risk-Mitigation, sonic-epic",,SON-954,Open,0,0,0,0,5,0,0,5,,
+Spike,[RISK-87] Investigate scope and define priority categories of secrets to support Risk-87.,Sonic,,Sonic [EXT],Gareth Llewellyn,,RISKs [EXT],,,,,[RISK-87] Rotate Credentials,Medium,Risk-Mitigation,,SON-955,Ready,0,0,0,0,0,0,0,0,,
+Epic,Update GitLab pipelines to use local and shared cache,Sonic,,Sonic [EXT],,,,,,,,,Unassigned,,,SON-864,Open,0,0,0,0,1,0,0,1,,
+Epic,Kafka access from all exclaves,Sonic,,Sonic [EXT],James Triggs,Ashkan Kalantari,,,,,,,Unassigned,,,SON-607,Awaiting sign-off,0,0,0,20,4,0,1,5,,
+Epic,Automated test coverage of administrative functionality,Product Management Backlog,,,,,,,,,,,Medium,,,PMB-99,Open,0,0,0,0,0,0,0,0,,
+Epic,Improve Cleric test safety and speed,Product Management Backlog,,,,,,,,,,,Medium,,,PMB-93,Open,0,0,0,0,1,0,0,1,,
+Epic,Bunker Configuration Backup,Product Management Backlog,,,,,,,,,,,Medium,For-PM-consideration,,PMB-124,Open,0,0,0,0,0,0,0,0,,
+Epic,Attribute Affinity Analysis - Enhanced Experience,Product Management Backlog,,,,,,,,08/Jun/23,,,Medium,,,PMB-105,Done,0,0,0,100,0,0,14,14,,
+Epic,Make Hausmeister more resilient,Product Management Backlog,,,,,,,,,,,Medium,,,PMB-125,Open,0,0,0,0,1,0,0,1,,
+Epic,NATS improvements,Product Management Backlog,,,,,,,,,,,Medium,Risk-Mitigation,,PMB-100,Open,0,0,0,0,0,0,0,0,,
+Epic,Key Cascading,Product Management Backlog,,,,,,,,,,,Medium,,,PMB-122,Open,0,0,0,16.67,5,0,1,6,,
+Epic,UK/US Address Mapper,Product Management Backlog,,,,,,,,,,,Medium,tech-debt,,PMB-101,Open,0,0,0,100,0,0,3,3,,
+Epic,Attribute Affinity tasks need to process faster,Product Management Backlog,,,,Dominic Benton,,,,,,,Unassigned,"Annalect, Disney, INTAKE",,PMB-480,Open,0,0,0,0,0,0,0,0,,
+Epic,Attribute Affinity public API endpoint,Product Management Backlog,,,,Dominic Benton,,,,,,,Unassigned,,,PMB-503,Open,0,0,0,0,0,0,0,0,,
+Epic,"Extend query operations (Sum, Avg etc)",Product Management Backlog,,,,,,,,,,,Unassigned,INTAKE,,PMB-558,Open,0,0,0,0,0,0,0,0,,
+Epic,Snowflake export connector,Product Management Backlog,,,,Matthew Purnell,,,,,,,Unassigned,INTAKE,,PMB-561,Open,0,0,0,0,0,0,0,0,,
+Epic,Add support for generic (non-mapped) global address,Product Management Backlog,,,,Matthew Purnell,,,,,,,Unassigned,INTAKE,,PMB-565,Open,0,0,0,0,0,0,0,0,,
+Epic,Cloud Provider / Regional API Gateway for raw data access only,Product Management Backlog,,,,,,,,,,,Unassigned,,,PMB-626,Open,0,0,0,0,4,0,0,4,,
+Epic,Cloud provider / Regional API Gateway for full platform,Product Management Backlog,,,,,,,,,,,Unassigned,,,PMB-631,Open,0,0,0,0,2,0,0,2,,
+Epic,"Ensure that all resources have consistent access policies applied to them, for members of engineering teams.",Sonic,,Sonic [EXT],,Ben Atkinson,,,,,,,Unassigned,,,SON-591,Open,0,0,0,0,3,0,0,3,,
+Spike,Identify Sandbox K8S access requirements,Sonic,,Sonic [EXT],,Ben Atkinson,,,,,,"Ensure that all resources have consistent access policies applied to them, for members of engineering teams.",Unassigned,,,SON-592,Ready,0,0,0,0,0,0,0,0,,
+Spike,Identify GitLab MR approval and merge requirements,Sonic,,Sonic [EXT],,Ben Atkinson,,,,,,"Ensure that all resources have consistent access policies applied to them, for members of engineering teams.",Unassigned,,,SON-593,Not Ready,0,0,0,0,0,0,0,0,,
+Spike,Identify which resources need consistent access roles,Sonic,,Sonic [EXT],,Ben Atkinson,,,,,,"Ensure that all resources have consistent access policies applied to them, for members of engineering teams.",Unassigned,,,SON-594,Not Ready,0,0,0,0,0,0,0,0,,
+Epic,Resolve snyk vulnerabilities in our code,Sonic,,Sonic [EXT],,Ross Bishop,,,,,,,Unassigned,,,SON-706,Open,0,0,0,25,12,0,4,16,,
+Epic,Removal of Infrastructure and deployment process for the classic bunkers which are being decommissioned,Sonic,,Sonic [EXT],,Leslie Mear,,,,,,,Unassigned,,,SON-735,On Hold,0,0,0,0,2,0,0,2,,
+Spike,Investigate elements not currently in IAC for Engineering Side VPC's.,Sonic,,Sonic [EXT],,Leslie Mear,Decommissioning [EXT],,,,,Removal of Infrastructure and deployment process for the classic bunkers which are being decommissioned,Unassigned,,,SON-746,Ready,0,0,0,0,0,0,0,0,,
+Epic,Decouple exclave charts from code and standardise them,Sonic,,Sonic [EXT],,Hedayat Khezri,,,,,,,Unassigned,,,SON-861,Open,0,0,0,0,1,0,0,1,,
+Spike,Try out each one of the proposed ways and determine the best fitted one,Sonic,,Sonic [EXT],,Hedayat Khezri,,,,,,Decouple exclave charts from code and standardise them,Unassigned,,,SON-866,Not Ready,0,0,0,0,0,0,0,0,,
+Epic,Epic template (no table),Product Management Backlog,,,,,,,,,,,Unassigned,,,PMB-712,Open,0,0,0,0,0,0,0,0,,
+Epic,Snowflake Research,GLaDOS,,,Rhys Gardener,Alistair Bastian,,,,,,,Unassigned,,,GLA-124,Open,0,0,0,100,0,0,4,4,,
+Spike,Experiment with exporting data from Snowflake into S3,GLaDOS,,,Rhys Gardener,Alistair Bastian,,,,,,Snowflake Research,Unassigned,,,GLA-117,Done,0,0,0,0,0,0,0,0,,03/Feb/23
+Epic,Synthetic Data Research,GLaDOS,,,Rhys Gardener,Rhys Gardener,,,,,,,Unassigned,,,GLA-55,In Development,0,0,0,60,4,0,6,10,,18/May/23
+Spike,Answer: Can bayesian networks create synthetic data with a time dependancy?,GLaDOS,,,,Rhys Gardener,,,,,,Synthetic Data Research,Unassigned,,,GLA-108,Not Ready,0,0,0,0,0,0,0,0,,
+Spike,BN phase 1: Data Transformation ,GLaDOS,,,,Rhys Gardener,,,,,,Synthetic Data Research,Unassigned,,,GLA-114,Not Ready,0,0,0,0,0,0,0,0,,
+Epic,Manage publish configurations,Atlas,,Atlas [EXT],Richard Heap,Richard Heap,,,,,,,Unassigned,,,ATL-1509,Open,0,0,0,0,10,0,0,10,,
+Epic,[RISK-238] Postgres RDS doesn't enforce SSL,Product Management Backlog,,,Cameron McAllister,Tharini Roobakumar,,,,,,,Unassigned,Risk-Mitigation,,PMB-786,Open,0,0,0,0,0,0,0,0,,
+Epic,Backups for Atlassian with library enhancements,Sonic,,Sonic [EXT],,Ross Bishop,,,,,,,Unassigned,,,SON-1209,Open,0,0,0,0,3,0,0,3,,
+Epic,Migrate Integration and Staging Legacy Bunkers to different AZ's in all regions to the one used in production.,Sonic,,,,Leslie Mear,,,,,,,High,,,SON-1319,Open,0,0,0,0,0,0,0,0,,
+Epic,Account Management SSO / Identity provider improvments,Atlas,,Atlas [EXT],,Robert Clayburn,,,,,,,Medium,,,ATL-355,Open,0,0,0,30.77,9,0,4,13,,
+Epic,Rewrite gitlab project configuration tool (Lab Assistant),Sonic,,,,Hedayat Khezri,,,,,,,Unassigned,,,SON-1360,Open,0,0,0,0,0,0,0,0,,
+Epic,RDS Backups with DeLorean,Sonic,,,,Ross Bishop,,,,,,,Unassigned,,,SON-1361,Open,0,0,0,0,0,0,0,0,,
+Epic,Mocked Cypress tests,Atlas,,,,Wayne Austin,Next sprint possibles [EXT],,,,,,Unassigned,tech-debt,,ATL-1766,In Development,0,0,0,100,0,0,4,4,,29/Jun/23
+Epic,Condense cleric test suites to improve dev experience,Atlas,,,James Triggs,Ivan Glautier,,,,31/Sep/23,,,Low,tech-debt,,ATL-1882,Awaiting sign-off,0,0,0,0,4,0,0,4,,15/Sep/23
+Spike,Identify areas where testing is insufficient,Atlas,,,,Ivan Glautier,,,,,,Condense cleric test suites to improve dev experience,Unassigned,,,ATL-1958,Not Ready,0,0,0,0,0,0,0,0,,
+Epic,[RISK-91] Migrate AWS accounts to use roles rather than access keys,Product Management Backlog,,,Joseph Elledge,,,,,11/May/23,,,Unassigned,"Risk-Mitigation, sonic-epic, thunderhead-epic, bowser-epic",,PMB-616,In Development,0,0,0,71.43,4,2,15,21,,03/Oct/22
+Epic,Usage Reports - Clearing House Update,Unicorn,,,,Warren Brown,,,,,,,Unassigned,,,UNC-473,Open,0,0,0,0,0,0,0,0,,
+Epic,Remediate Critical AWS FTR findings,Sonic,,,James Triggs,Cameron McAllister,,,,31/Aug/23,,,Unassigned,,,SON-1431,In Discovery,0,0,0,0,8,0,0,8,,12/Jul/23
+Epic,Install calico on engineering EKS cluster,Sonic,,,,Andrew Murphy,,,,,,,Unassigned,,,SON-1455,Open,0,0,0,0,3,0,0,3,,
+Spike,Audit required access for services installed in engineering cluster to ensure calico compliance,Sonic,,,,Andrew Murphy,,,,,,Install calico on engineering EKS cluster,Unassigned,,,SON-1456,Ready for Dev,0,0,0,0,0,0,0,0,,
+Epic,[Tech Debt] - Formik Refactor,Atlas,,,,Oliver Denton,,,,,,,Unassigned,,,ATL-1979,On Hold,0,0,0,0,3,0,0,3,,
+Epic,Dataset Endpoint - review of List and Get sizes,Unicorn,,,,Joseph Elledge,,,,,,,Unassigned,,,UNC-568,Open,0,0,0,0,1,0,0,1,,
